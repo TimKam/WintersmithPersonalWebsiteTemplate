@@ -1,0 +1,30 @@
+{
+  "locals": {
+    "url": "http://mypersonalwebside.webside",
+    "name": "John Doe",
+    "owner": "John Doe",
+    "description": "Owner of John Doe Inc.",
+    "mailToLink": "mailto:me@bigbrother.com",
+    "linkToLinkedIn": "http://www.linkedin.com/pub/john-doe/11/22/333",
+    "linkToGitHub": "http://www.github.com/JohnnyBDoe",
+    "linkToStackoverflow": "http://www.stackoverflow.com/users/2356555/gimmetherep"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
